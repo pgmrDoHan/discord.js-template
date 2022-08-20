@@ -1,0 +1,31 @@
+{
+	"name": "osdevkorea-bot",
+	"version": "1.0.0",
+	"description": "Official BOT in DiscordServer \"Operating System Development [Korea] https://discord.gg/Rz5WFHU9ZQ",
+	"keywords": ["Os","Development","Korea","Discord","Bot"],
+	"homepage": "https://github.com/OsDev-KR/OsDevKorea-DiscordBOT",
+	"bugs": {
+		"url": "https://github.com/OsDev-KR/OsDevKorea-DiscordBOT/issues",
+		"email": "osdev.kr@google.com"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "OsDev-KR",
+		"email": "osdev.kr@google.com",
+		"url": "https://github.com/OsDev-KR"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/OsDev-KR/OsDevKorea-DiscordBOT"
+	},
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"private": true,
+	"scripts": {
+		"start":"node src/index.js"
+	},
+  "dependencies": {
+    "discord.js": "^14.2.0"
+  }
+}
